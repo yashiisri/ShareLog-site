@@ -1,0 +1,37 @@
+.footer {
+  background-color: rgb(134, 197, 89); /* Adjust if needed */
+    padding: 20px 0; /* Adjust padding for top and bottom */
+  }
+  
+  .container {
+    max-width: 1200px; /* Increase max-width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Add padding for left and right */
+  }
+  
+  .row {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content */
+  }
+  
+  .col-md-10 {
+    padding: 0 15px; /* Add padding on sides */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer p:first-of-type {
+    font-size: 17px; /* Smaller size for ShareLog text */
+  }
+  
+  .footer .copyright {
+     /* Center the copyright text */
+    font-size: 30px; /* Bigger size for the copyright text */
+    margin-top: 15px; /* Space above copyright text */
+    margin-left: auto; /* Align with ShareLog text */
+    margin-right: auto; /* Align with ShareLog text */
+    width: fit-content; /* Make the width fit the content */
+  }
+  

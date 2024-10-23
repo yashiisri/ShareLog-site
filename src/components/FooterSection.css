@@ -1,0 +1,108 @@
+.footer-section {
+  background-color: rgb(197, 252, 87); /* Light background for the footer */
+  padding: 2rem; /* Padding around the footer */
+}
+
+.footer-content {
+  display: flex; /* Flexbox layout for footer */
+  justify-content: space-between; /* Space out logo and nav links */
+  align-items: flex-start; /* Align items to the start */
+}
+
+.logo-container {
+  display: flex; /* Flexbox for logo and company info */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.logo {
+  width: 50px; /* Set logo size */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 1rem; /* Space between logo and text */
+}
+
+.company-info {
+  display: flex; /* Flexbox for company name and tagline */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.company-name {
+  color: black; /* Default color for company name */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Flexbox for alignment */
+  align-items: baseline; /* Align items to baseline */
+}
+
+.company-name span:first-child {
+  color: green; /* Green color for "Share" */
+  margin-right: 0; /* No right margin */
+}
+
+.company-name {
+  margin: 0; /* Remove default margin */
+  display: flex; /* Flexbox for alignment */
+  align-items: baseline; /* Align items to baseline */
+}
+
+.share {
+  color: green; /* Green color for "Share" */
+}
+
+.log {
+  color: black; /* Black color for "Log" */
+}
+
+
+.tagline {
+  margin-top: 0.5rem; /* Space above tagline */
+ 
+  color: #333; /* Color for the tagline */
+}
+
+.description {
+  margin: 1rem 0; /* Space between description and social icons */
+}
+
+.social-icons {
+  display: flex; /* Flexbox for social icons */
+  gap: 1rem; /* Space between icons */
+  
+}
+
+.social-icon {
+  font-size: 1.5rem; /* Size for the icons */
+  color: #333; /* Icon color */
+}
+
+.nav-links {
+  display: flex; /* Flexbox for nav links */
+  justify-content: space-between; /* Space out columns */
+  width: 100%; /* Full width for nav links */
+}
+
+.nav-column {
+  margin-left: 2rem; /* Space between columns */
+}
+
+.nav-column h3 {
+  margin-bottom: 0.5rem; /* Space below section headings */
+}
+
+.nav-column ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-column li {
+  margin-bottom: 0.5rem; /* Space between links */
+}
+
+.nav-column a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Color for the links */
+  transition: color 0.3s; /* Smooth transition for link color */
+}
+
+.nav-column a:hover {
+  color: green; /* Change link color on hover */
+}
